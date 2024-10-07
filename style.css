@@ -1,2 +1,6 @@
 body {
-  background-color: black; }
+  background-color: grey; }
+
+
+#CookieDeclarationIntro {
+  text-color: yellow; }
