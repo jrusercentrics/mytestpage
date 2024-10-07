@@ -3,5 +3,5 @@ body {
   color: white; }
 
 
-#CookieDeclarationIntro p {
+.CookieDeclarationIntro p {
   color: yellow; !important }
