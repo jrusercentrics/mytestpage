@@ -1,7 +1,12 @@
+<html>
+<head>
+</head>
+<body>
 <div>
 <div class="cookiemessageheader">
 <p>This is my Cookiebot message</p>
+</div class="cookiebottext">
+<!-- <script id="CookieDeclaration" src="https://consent.cookiebot.com/e2769309-3672-42d4-bc3f-d56333e6a880/cd.js" type="text/javascript" async></script> -->
 </div>
-
-
-</div>
+</body>
+</html>
