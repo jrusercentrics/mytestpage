@@ -4,4 +4,4 @@ body {
 
 
 #CookieDeclarationIntro p {
-  color: yellow; }
+  color: yellow; !important }
