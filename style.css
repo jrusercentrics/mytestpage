@@ -6,6 +6,6 @@ body {
 .CookieDeclarationIntro {
   color: yellow !important; }
 
-.CookiebotWidget-logo {
-  color: red;
+.change-my-color {
+  fill: green;
 }
