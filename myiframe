@@ -1,0 +1,45 @@
+<html>
+  <head>
+<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e2769309-3672-42d4-bc3f-d56333e6a880" data-framework="TCFv2.2" data-blockingmode="auto" type="text/javascript"></script>
+    <script>
+   setTimeout(() => {
+       if (typeof Cookiebot !== "undefined" && Cookiebot.regulationRegions?.gdpr) {
+           Cookiebot.regulationRegions.gdpr.push("ch");
+       } else {
+       }
+   }, 200); // 100ms delay
+   </script>
+ <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WB52WTHD');</script>
+<!-- End Google Tag Manager -->
+<!-- Hotjar Tracking Code for https://jrusercentrics.github.io/mytestpage/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:5161294,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+  </head>
+  <body>
+    <!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/145626085.js"></script>
+<!-- End of HubSpot Embed Code -->
+
+<a href="https://jrusercentrics.github.io/mytest3/?param=other">link to the other site</a>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WB52WTHD"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <h1> This is my cookiebot test page</h1>
+    <a href="cookiebotmessage.html">view cookie message</a>
+  </body>
+
+</html>
