@@ -5,117 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monte Verde Eco Resort</title>
 
-    <!-- Bloqueio condicional do Cookiebot -->
-    <script>
-      const disableConsent = new URLSearchParams(window.location.search).get("disableConsent") === "true";
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="e2769309-3672-42d4-bc3f-d56333e6a880" data-blockingmode="auto" type="text/javascript"></script>
 
-      if (!disableConsent) {
-        const cb = document.createElement("script");
-        cb.id = "Cookiebot";
-        cb.src = "https://consent.cookiebot.com/uc.js";
-        cb.setAttribute("data-cbid", "bf2e35f2-dc62-4565-82ea-deb9f5209a7b");
-        cb.setAttribute("data-framework", "TCFv2.2");
-        cb.setAttribute("data-blockingmode", "auto");
-        cb.type = "text/javascript";
-        document.head.appendChild(cb);
-      }
-    </script>
-
-    <!-- Adição do país 'ch' ao Cookiebot, se aplicável -->
-    <script>
-      setTimeout(() => {
-        if (typeof Cookiebot !== "undefined" && Cookiebot.regulationRegions?.gdpr) {
-          Cookiebot.regulationRegions.gdpr.push("ch");
-        }
-      }, 200);
-    </script>
-
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: #f8f9fa;
-        color: #333;
-      }
-
-      header {
-        background: url('https://source.unsplash.com/1600x400/?nature,resort') no-repeat center center;
-        background-size: cover;
-        color: white;
-        padding: 60px 20px;
-        text-align: center;
-      }
-
-      .container {
-        max-width: 960px;
-        margin: 40px auto;
-        padding: 0 20px;
-      }
-
-      .card {
-        background: white;
-        border-radius: 8px;
-        padding: 20px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-        margin-bottom: 30px;
-      }
-
-      .cta {
-        display: inline-block;
-        background: #28a745;
-        color: white;
-        padding: 12px 20px;
-        border-radius: 4px;
-        text-decoration: none;
-        font-weight: bold;
-      }
-
-      .cta:hover {
-        background: #218838;
-      }
-
-      footer {
-        background: #343a40;
-        color: white;
-        text-align: center;
-        padding: 20px;
-      }
-    </style>
+    
   </head>
 
   <body>
-    <header>
-      <h1>Monte Verde Eco Resort</h1>
-      <p>Natureza. Tranquilidade. Conforto.</p>
-    </header>
-
-    <div class="container">
-      <div class="card">
-        <h2>Bem-vindo ao nosso paraíso escondido</h2>
-        <p>
-          Localizado entre montanhas exuberantes, o Monte Verde Eco Resort oferece uma experiência
-          inesquecível de descanso, aventura e contato com a natureza. Chalés exclusivos,
-          gastronomia local e atividades ao ar livre esperam por si.
-        </p>
-        <a class="cta" href="#">Reservar agora</a>
-      </div>
-
-      <div class="card">
-        <h3>Atividades incluídas:</h3>
-        <ul>
-          <li>Caminhadas guiadas pela serra</li>
-          <li>Aulas de ioga ao nascer do sol</li>
-          <li>Jantares temáticos com produtos da região</li>
-          <li>Passeios de bicicleta</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h3>Galeria</h3>
-        <img src="https://source.unsplash.com/800x400/?mountains,forest" alt="Paisagem" style="width:100%; border-radius: 4px;">
-      </div>
-    </div>
+    <h1>TEST BUG</h1>
 
     <footer>
       <p>&copy; 2025 Monte Verde Eco Resort. Todos os direitos reservados.</p>
